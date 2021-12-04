@@ -43,7 +43,7 @@ public class NewClientController {
 
         updateNewClient.setFirstName(newClientDetails.getFirstName());
         updateNewClient.setLastName(newClientDetails.getLastName());
-        updateNewClient.setEmailId(newClientDetails.getLastName());
+        updateNewClient.setEmailId(newClientDetails.getEmailId());
         updateNewClient.setContactNumber(newClientDetails.getContactNumber());
         updateNewClient.setCompanyName(newClientDetails.getCompanyName());
         updateNewClient.setWorkArea(newClientDetails.getWorkArea());
